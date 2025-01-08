@@ -1,61 +1,134 @@
 <!DOCTYPE html>
-<html lang="ca">
+<html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Humans.txt - Home</title>
+    <title>Humans</title>
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="index.css">
+    <link rel="shortcut icon" href="/img/favicon.ico" type="image/x-icon">
 </head>
+
 <body>
-    <header>
-        <div class="logo">
-            <img src="img/logo-humans.png" alt="Logo Humans.txt">
-            <p>We Are People, Not Machines</p>
+    <div class="container">
+        <header class="header">
+            <img src="../img/logo-humans.png" alt="Imatge principal">
+            <nav>
+                <ul>
+                    <li><a href="index.html">La idea</a></li>
+                    <li><a href="#">Llençat</a></li>
+                    <li><a href="#">H-team</a></li>
+                    <li><a href="#">Amistats</a></li>
+                    <li><a href="#">Opinions</a></li>
+                    <li><a href="contactar.html">Contactar</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <div class="imatge">
+            <img src="../img/slider/03.jpg" alt="humans design">
         </div>
-        <nav>
-            <ul>
-                <li><a href="#" class="selected">La idea</a></li>
-                <li><a href="#">Llença't</a></li>
-                <li><a href="#">H-team</a></li>
-                <li><a href="#">Amistats</a></li>
-                <li><a href="#">Opinions</a></li>
-                <li><a href="contactar.html">Contactar</a></li>
-            </ul>
-        </nav>
-    </header>
-    <main>
-        <section class="slider">
-            <img src="img/slider/03.jpg" alt="Slider Principal">
-        </section>
-        <section class="about">
-            <h2>Sobre humans.txt</h2>
-            <div class="cards">
-                <div class="card">
-                    <img src="img/01-what-is-humans-txt.png" alt="Què és?">
-                    <p>Què és?</p>
+
+        <div class="article">
+
+            <div class="article-title">
+                <p>Sobre humans.txt</p>
+            </div>
+
+            <div class="header-items">
+                <div>
+                    <div class="header-item">
+                        <div class="span">
+                            <span>Què és?</span>
+                        </div>
+                        <div>
+                            <img src="../img/01-what-is-humans-txt.png" alt="img">
+                            <span>Un fitxer TXT que conté la informació sobre les persones que han treballat en un lloc
+                                web.</span>
+                        </div>
+                    </div>
                 </div>
-                <div class="card">
-                    <img src="img/02-why-a-txt.png" alt="Per què un TXT?">
-                    <p>Per què un TXT?</p>
-                </div>
-                <div class="card">
-                    <img src="img/03-where-is-located.png" alt="On va?">
-                    <p>On va?</p>
-                </div>
-                <div class="card">
-                    <img src="img/04-why-should-i.png" alt="Per què he de fer-ho?">
-                    <p>Per què he de fer-ho?</p>
+                <div>
+                    <div class="header-item">
+                        <div class="span">
+                            <span>Per què un TXT?</span>
+                        </div>
+                        <div>
+                            <img src="../img/02-why-a-txt.png" alt="">
+                            <span>És fàcil i ràpid de crear. Perquè no és intrusiu amb el codi i més cops els
+                                propietaris dels llocs volen que els autors signin el seu lloc web.</span>
+                        </div>
+                    </div>
                 </div>
             </div>
-        </section>
-    </main>
-    <footer>
-        <div class="social">
-            <p>Creus que hi falta alguna cosa?</p>
-            <img src="img/spotify.png" alt="Spotify">
+
+            <div class="items">
+                <div class="grid-item">
+                    <img src="../img/03-where-is-located.png" alt="">
+                    <h3>On va?</h3>
+                    <p>A l arrel del lloc web, al costat del robots.txt.</p>
+                </div>
+                <div class="grid-item">
+                    <img src="../img/04-why-should-i.png" alt="">
+                    <h3>Per què he de fer-ho?</h3>
+                    <p>No estàs obligat. És una iniciativa per conèixer els autors dels llocs web.</p>
+                </div>
+                <div class="grid-item">
+                    <img src="../img/05-who-should-i-mention.png" alt="">
+                    <h3>A qui he d afegir?</h3>
+                    <p>A qui vulguis, sempre que els hi agradi aparèixer. Desenvolupadors, dissenyadors, SEO...</p>
+
+                </div>
+
+                <div class="grid-item">
+                    <img src="../img/06-meta-name-or-humans-txt.png" alt="">
+                    <h3>Meta Name vs. humans.txt?</h3>
+                    <p>És un complement per donar més informació dels autors.</p>
+                </div>
+                <div class="grid-item">
+                    <img src="../img/07-the-internet-is-for-humans.png" alt="">
+                    <h3>El web és per a humans...</h3>
+                    <p>
+                        Sempre ho diem. Generem un arxiu per informar de qui som nosaltres.
+                    </p>
+                </div>
+                <div class="grid-item">
+                    <img src="../img/08-looking-for-a-standard.png" alt="">
+                    <h3>Cercant un estàndard</h3>
+                    <p>
+                        Ens agrada que les coses tinguin un estàndard. humans.txt és la nova tendència.
+                    </p>
+                </div>
+            </div>
         </div>
-        <p>&copy; 2024 Humans.txt</p>
-    </footer>
+
+        <footer class="footer">
+            
+            <div class="footer-section">
+                <h3>Creus que hi falta alguna cosa?</h3>
+                <div>
+                    <span class="botones">@</span>
+                    <span class="botones">T</span>
+                    <span class="botones">F</span>
+                    <img src="../img/spotify.png" alt="Spotify">
+                </div>
+            </div>
+        
+            <div class="footer-section">
+                <img src="../img/ico-html5.png" alt="HTML5">
+                <img src="../img/humanstxt-isolated-blank.gif" alt="humans.txt">
+            </div>
+        
+            <div class="footer-section">
+                <img src="../img/CC.png" alt="Creative Commons">
+                <span>humans.txt is licensed under a</span>
+                <span class="orange">Creative Commons</span><br>
+                <span class="orange">Attribution-NonCommercial-ShareAlike 3.0 Unported License</span>
+            </div>
+        </footer>
+        
+    </div>
 </body>
+
 </html>
